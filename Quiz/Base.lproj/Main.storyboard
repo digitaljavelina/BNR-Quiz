@@ -49,7 +49,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QER-uw-ybW">
-                                <rect key="frame" x="265" y="72" width="69" height="37"/>
+                                <rect key="frame" x="265" y="86" width="69" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epc-kz-wLj">
+                                <rect key="frame" x="282" y="86" width="36" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -57,20 +63,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tRF-mY-O2u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6R5-rf-g3I"/>
+                            <constraint firstItem="Epc-kz-wLj" firstAttribute="top" secondItem="tRF-mY-O2u" secondAttribute="bottom" constant="28" id="CdJ-Fo-z47"/>
                             <constraint firstItem="Aq3-KD-hUr" firstAttribute="centerX" secondItem="TD5-bf-v2D" secondAttribute="centerX" id="Elr-kY-WEF"/>
-                            <constraint firstItem="Aq3-KD-hUr" firstAttribute="top" secondItem="QER-uw-ybW" secondAttribute="bottom" constant="47" id="FbB-uV-7Aq"/>
                             <constraint firstItem="TD5-bf-v2D" firstAttribute="top" secondItem="Aq3-KD-hUr" secondAttribute="bottom" constant="29" id="JbI-uW-0RJ"/>
-                            <constraint firstItem="QER-uw-ybW" firstAttribute="top" secondItem="tRF-mY-O2u" secondAttribute="bottom" constant="14" id="ZEm-bg-qh3"/>
+                            <constraint firstItem="QER-uw-ybW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SBh-pc-BcO"/>
+                            <constraint firstItem="QER-uw-ybW" firstAttribute="top" secondItem="tRF-mY-O2u" secondAttribute="bottom" constant="28" id="ZEm-bg-qh3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TD5-bf-v2D" secondAttribute="bottom" constant="364" id="ceN-yh-eVF"/>
+                            <constraint firstItem="tRF-mY-O2u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cgy-gj-0eY"/>
                             <constraint firstItem="tRF-mY-O2u" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="dvq-S2-eAH"/>
-                            <constraint firstItem="tRF-mY-O2u" firstAttribute="centerX" secondItem="QER-uw-ybW" secondAttribute="centerX" constant="1" id="jMA-f5-Ji1"/>
-                            <constraint firstItem="QER-uw-ybW" firstAttribute="centerX" secondItem="Aq3-KD-hUr" secondAttribute="centerX" id="jXs-UK-vD8"/>
+                            <constraint firstItem="Epc-kz-wLj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pnZ-OG-kGh"/>
+                            <constraint firstItem="Aq3-KD-hUr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yRe-kp-i50"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="answerLabel" destination="TD5-bf-v2D" id="3kD-Gl-2vk"/>
-                        <outlet property="questionLabel" destination="QER-uw-ybW" id="7UR-iU-FFW"/>
+                        <outlet property="answerLabel" destination="TD5-bf-v2D" id="n0G-vS-GA5"/>
+                        <outlet property="currentQuestionLabel" destination="QER-uw-ybW" id="ffx-fr-knl"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="SBh-pc-BcO" id="TEE-se-CsQ"/>
+                        <outlet property="nextQuestionLabel" destination="Epc-kz-wLj" id="yfz-9D-klq"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="pnZ-OG-kGh" id="0uY-fy-yG9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

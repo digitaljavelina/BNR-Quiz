@@ -65,7 +65,11 @@ class ViewController: UIViewController {
         self.nextQuestionLabelCenterXConstraint.constant = 0
         self.currentQuestionLabelCenterXConstraint.constant += screenwidth
         
-        UIView.animateWithDuration(0.5, delay: 0, options: [.CurveLinear], animations: {
+        /*UIView.animateWithDuration(0.5, delay: 0, options: [.CurveLinear], animations: {
+         
+            }, completion:     } */
+        
+        UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.1, options: [.CurveEaseInOut], animations: {
             self.currentQuestionLabel.alpha = 0
             self.nextQuestionLabel.alpha = 1
             self.view.layoutIfNeeded()    // update views based on new constraints

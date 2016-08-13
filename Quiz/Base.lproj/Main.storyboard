@@ -45,19 +45,19 @@
                                     <constraint firstAttribute="height" constant="21" id="DzI-xS-qs5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QER-uw-ybW">
                                 <rect key="frame" x="265" y="86" width="69" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epc-kz-wLj">
                                 <rect key="frame" x="282" y="86" width="36" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -65,6 +65,7 @@
                         <constraints>
                             <constraint firstItem="Epc-kz-wLj" firstAttribute="top" secondItem="tRF-mY-O2u" secondAttribute="bottom" constant="28" id="CdJ-Fo-z47"/>
                             <constraint firstItem="Aq3-KD-hUr" firstAttribute="centerX" secondItem="TD5-bf-v2D" secondAttribute="centerX" id="Elr-kY-WEF"/>
+                            <constraint firstItem="Aq3-KD-hUr" firstAttribute="top" secondItem="tRF-mY-O2u" secondAttribute="bottom" constant="98" id="GTH-xi-bhU"/>
                             <constraint firstItem="TD5-bf-v2D" firstAttribute="top" secondItem="Aq3-KD-hUr" secondAttribute="bottom" constant="29" id="JbI-uW-0RJ"/>
                             <constraint firstItem="QER-uw-ybW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SBh-pc-BcO"/>
                             <constraint firstItem="QER-uw-ybW" firstAttribute="top" secondItem="tRF-mY-O2u" secondAttribute="bottom" constant="28" id="ZEm-bg-qh3"/>
